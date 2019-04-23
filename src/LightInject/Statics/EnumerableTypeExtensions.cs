@@ -1,6 +1,9 @@
 namespace LightInject
 {
-   internal static class EnumerableTypeExtensions
+    using System;
+    using System.Collections.Generic;
+
+    internal static class EnumerableTypeExtensions
     {
         private static readonly ThreadSafeDictionary<Type, Type> EnumerableTypes = new ThreadSafeDictionary<Type, Type>();
 

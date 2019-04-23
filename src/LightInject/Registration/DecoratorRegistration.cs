@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Contains information about a registered decorator.
     /// </summary>

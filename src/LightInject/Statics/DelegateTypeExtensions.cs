@@ -1,9 +1,10 @@
-using System;
-using System.Reflection;
-
 namespace LightInject
 {
-   internal static class DelegateTypeExtensions
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
+    internal static class DelegateTypeExtensions
     {
         private static readonly MethodInfo OpenGenericGetInstanceMethodInfo =
             typeof(ServiceFactoryExtensions).GetTypeInfo().DeclaredMethods.Where(m => m.Name == "GetInstance" & m.GetParameters().Length == 1).Single();

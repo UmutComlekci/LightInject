@@ -1,6 +1,11 @@
 namespace LightInject
 {
-   /// <summary>
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+
+    /// <summary>
     /// An assembly scanner that registers services based on the types contained within an <see cref="Assembly"/>.
     /// </summary>
     public class AssemblyScanner : IAssemblyScanner

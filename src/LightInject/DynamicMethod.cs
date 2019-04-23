@@ -1,6 +1,10 @@
 namespace LightInject
 {
-    #if NETSTANDARD1_1 || NETSTANDARD1_3 || NETSTANDARD1_6 || NETSTANDARD2_0
+#if NETSTANDARD1_1 || NETSTANDARD1_3 || NETSTANDARD1_6 || NETSTANDARD2_0
+    using System;
+    using System.Linq;
+    using System.Linq.Expressions;
+    using System.Reflection;
 
     /// <summary>
     /// Defines and represents a dynamic method that can be compiled and executed.

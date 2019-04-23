@@ -1,6 +1,9 @@
 namespace LightInject
 {
-    #if NET452 || NET46 || NETSTANDARD1_6 || NETSTANDARD2_0 || NETCOREAPP2_0
+    using System.Collections.Generic;
+    using System.Reflection;
+
+#if NET452 || NET46 || NETSTANDARD1_6 || NETSTANDARD2_0 || NETCOREAPP2_0
 
     /// <summary>
     /// Represents a class that is responsible loading a set of assemblies based on the given search pattern.

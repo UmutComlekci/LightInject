@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     /// <summary>
     /// Ensures that a new instance is created for each request in addition to tracking disposable instances.
     /// </summary>

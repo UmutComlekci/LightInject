@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// Defines a set of methods used to retrieve service instances.
     /// </summary>

@@ -15,7 +15,7 @@ namespace LightInject.Tests
 
             var instances = container.GetAllInstances<IFoo<Bar>>();
 
-            Assert.Equal(1, instances.Count());
+            Assert.Single(instances);
         }
 
         [Fact]

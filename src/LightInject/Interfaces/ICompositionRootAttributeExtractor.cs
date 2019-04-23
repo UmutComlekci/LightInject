@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System.Reflection;
+
     /// <summary>
     /// Represents a class that is capable of extracting
     /// attributes of type <see cref="CompositionRootTypeAttribute"/> from an <see cref="Assembly"/>.

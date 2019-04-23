@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Represents a class that is capable of providing a service name
     /// to be used when a service is registered during assembly scanning.

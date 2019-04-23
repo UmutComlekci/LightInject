@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     /// <summary>
     /// Used at the assembly level to describe the composition root(s) for the target assembly.
     /// </summary>

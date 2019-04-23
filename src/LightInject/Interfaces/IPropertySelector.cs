@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Reflection;
+
     /// <summary>
     /// Represents a class that is responsible for selecting injectable properties.
     /// </summary>

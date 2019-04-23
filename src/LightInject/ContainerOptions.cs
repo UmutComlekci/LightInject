@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// Represents a set of configurable options when creating a new instance of the container.
     /// </summary>

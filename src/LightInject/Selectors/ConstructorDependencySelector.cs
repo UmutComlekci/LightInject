@@ -1,6 +1,10 @@
 namespace LightInject
 {
-     /// <summary>
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+
+    /// <summary>
     /// Selects the constructor dependencies for a given <see cref="ConstructorInfo"/>.
     /// </summary>
     public class ConstructorDependencySelector : IConstructorDependencySelector

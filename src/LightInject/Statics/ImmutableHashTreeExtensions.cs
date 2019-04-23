@@ -1,7 +1,9 @@
-using System;
-
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Runtime.CompilerServices;
+
     /// <summary>
     /// Extends the <see cref="ImmutableHashTree{TKey,TValue}"/> class.
     /// </summary>

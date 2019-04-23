@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Reflection.Emit;
+
     /// <summary>
     /// Represents an MSIL instruction to be emitted into a dynamic method.
     /// </summary>

@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     internal static class FuncTypeExtensions
     {
         private static readonly ThreadSafeDictionary<Type, Type> FuncTypes = new ThreadSafeDictionary<Type, Type>();

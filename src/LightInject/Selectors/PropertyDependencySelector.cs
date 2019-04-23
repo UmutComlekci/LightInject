@@ -1,6 +1,10 @@
 namespace LightInject
 {
-   /// <summary>
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    /// <summary>
     /// Selects the property dependencies for a given <see cref="Type"/>.
     /// </summary>
     public class PropertyDependencySelector : IPropertyDependencySelector

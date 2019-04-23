@@ -1,6 +1,8 @@
 namespace LightInject
 {
 #if NETSTANDARD1_1 || NETSTANDARD1_3 || NETSTANDARD1_6 || NETSTANDARD2_0
+    using System;
+
     /// <summary>
     /// An attribute shim since we don't have this attribute in netstandard.
     /// </summary>

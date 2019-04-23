@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Contains a set of helper method related to validating
     /// user input.

@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Linq.Expressions;
+
     /// <summary>
     /// Base class for concrete registrations within the service container.
     /// </summary>

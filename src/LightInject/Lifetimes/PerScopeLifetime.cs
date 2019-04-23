@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     /// <summary>
     /// Ensures that only one service instance can exist within a given <see cref="Scope"/>.
     /// </summary>

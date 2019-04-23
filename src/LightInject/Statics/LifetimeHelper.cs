@@ -1,6 +1,8 @@
 namespace LightInject
 {
-     internal static class LifetimeHelper
+    using System.Reflection;
+
+    internal static class LifetimeHelper
     {
         static LifetimeHelper()
         {

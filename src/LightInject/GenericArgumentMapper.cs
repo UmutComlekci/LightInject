@@ -1,5 +1,10 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+
     /// <summary>
     /// A class that maps the generic arguments/parameters from a generic servicetype
     /// to a open generic implementing type.

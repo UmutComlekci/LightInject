@@ -1,6 +1,8 @@
 namespace LightInject
 {
-   /// <summary>
+    using System;
+
+    /// <summary>
     /// Represents a simple "add only" immutable list.
     /// </summary>
     /// <typeparam name="T">The type of items contained in the list.</typeparam>

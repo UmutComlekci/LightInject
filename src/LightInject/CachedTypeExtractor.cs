@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Reflection;
+
     /// <summary>
     /// A <see cref="ITypeExtractor"/> cache decorator.
     /// </summary>

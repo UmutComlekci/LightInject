@@ -1,6 +1,8 @@
 namespace LightInject
 {
-      /// <summary>
+    using System;
+
+    /// <summary>
     /// Represents a class that manages the lifetime of a service instance.
     /// </summary>
     public interface ILifetime

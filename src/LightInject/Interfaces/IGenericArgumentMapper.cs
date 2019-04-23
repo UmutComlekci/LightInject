@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Represents a class that maps the generic arguments/parameters from a generic servicetype
     /// to a open generic implementing type.

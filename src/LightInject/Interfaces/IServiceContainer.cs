@@ -1,6 +1,8 @@
 namespace LightInject
 {
-   /// <summary>
+    using System;
+
+    /// <summary>
     /// Represents an inversion of control container.
     /// </summary>
     public interface IServiceContainer : IServiceRegistry, IServiceFactory, IDisposable

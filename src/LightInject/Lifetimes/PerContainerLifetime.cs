@@ -1,6 +1,8 @@
 namespace LightInject
 {
-     /// <summary>
+    using System;
+
+    /// <summary>
     /// Ensures that only one instance of a given service can exist within the current <see cref="IServiceContainer"/>.
     /// </summary>
     public class PerContainerLifetime : ILifetime, IDisposable, ICloneableLifeTime

@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Reflection;
+
     internal static class NamedDelegateTypeExtensions
     {
         private static readonly MethodInfo CreateInstanceDelegateMethodInfo =

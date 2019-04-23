@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// Represents a class that is responsible for selecting the property dependencies for a given <see cref="Type"/>.
     /// </summary>

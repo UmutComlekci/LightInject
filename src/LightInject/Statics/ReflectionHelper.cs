@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
     internal static class ReflectionHelper
     {
         private static readonly Lazy<ThreadSafeDictionary<Type, MethodInfo>> GetInstanceWithParametersMethods;

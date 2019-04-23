@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System.Collections.Concurrent;
+    using System.Collections.Generic;
+
     /// <summary>
     /// A thread safe dictionary.
     /// </summary>

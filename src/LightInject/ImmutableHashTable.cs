@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// A simple immutable add-only hash table.
     /// </summary>

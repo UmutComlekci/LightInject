@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// A class that is responsible for instantiating and executing an <see cref="ICompositionRoot"/>.
     /// </summary>

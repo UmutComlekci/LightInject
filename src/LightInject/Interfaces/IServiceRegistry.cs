@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Reflection;
+
     /// <summary>
     /// Defines a set of methods used to register services into the service container.
     /// </summary>

@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
     /// <summary>
     /// Extracts concrete <see cref="ICompositionRoot"/> implementations from an <see cref="Assembly"/>.
     /// </summary>

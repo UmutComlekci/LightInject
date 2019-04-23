@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Contains information about a service request that originates from a rule based service registration.
     /// </summary>

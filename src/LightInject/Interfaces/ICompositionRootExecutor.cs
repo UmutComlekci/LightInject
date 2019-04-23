@@ -1,6 +1,8 @@
 namespace LightInject
 {
-   /// <summary>
+    using System;
+
+    /// <summary>
     /// Represents a class that is responsible for instantiating and executing an <see cref="ICompositionRoot"/>.
     /// </summary>
     public interface ICompositionRootExecutor

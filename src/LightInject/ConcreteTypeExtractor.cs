@@ -1,5 +1,11 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+    using System.Runtime.CompilerServices;
+
     /// <summary>
     /// Extracts concrete types from an <see cref="Assembly"/>.
     /// </summary>

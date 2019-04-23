@@ -1,5 +1,10 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Reflection;
+    using System.Reflection.Emit;
+
     /// <summary>
     /// An abstraction of the <see cref="ILGenerator"/> class that provides information
     /// about the <see cref="Type"/> currently on the stack.

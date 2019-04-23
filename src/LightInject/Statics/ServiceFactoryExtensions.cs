@@ -1,7 +1,8 @@
-using System;
-
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+
    /// <summary>
     /// Extends the <see cref="IServiceFactory"/> interface.
     /// </summary>

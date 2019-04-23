@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Reflection;
+
    /// <summary>
     /// Represents a class that selects the constructor to be used for creating a new service instance.
     /// </summary>

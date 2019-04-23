@@ -1,5 +1,13 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Linq;
+    using System.Reflection;
+    using System.Reflection.Emit;
+    using System.Threading;
+
    /// <summary>
     /// An ultra lightweight service container.
     /// </summary>
@@ -1783,10 +1791,9 @@ namespace LightInject
             return (Delegate)closedGenericMethod.Invoke(this, new object[] { del });
         }
 
-        // ReSharper disable UnusedMember.Local
+#pragma warning disable IDE0051 // Remove unused private members
         private Func<T> CreateGenericDynamicMethodDelegate<T>(Func<object> del)
-
-        // ReSharper restore UnusedMember.Local
+#pragma warning restore IDE0051 // Remove unused private members
         {
             return () => (T)del();
         }

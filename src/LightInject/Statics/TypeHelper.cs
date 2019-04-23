@@ -1,7 +1,10 @@
-using System;
-
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+
    /// <summary>
     /// Contains a set of extension method that represents
     /// a compability layer for reflection methods.

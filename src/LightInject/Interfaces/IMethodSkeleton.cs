@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     /// <summary>
     /// Represents a dynamic method skeleton for emitting the code needed to resolve a service instance.
     /// </summary>

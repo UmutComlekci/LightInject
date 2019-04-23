@@ -1,6 +1,10 @@
 namespace LightInject
 {
-   internal static class LazyTypeExtensions
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
+    internal static class LazyTypeExtensions
     {
         private static readonly ThreadSafeDictionary<Type, ConstructorInfo> Constructors = new ThreadSafeDictionary<Type, ConstructorInfo>();
 

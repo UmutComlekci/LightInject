@@ -1,7 +1,7 @@
-using System;
-
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Extends the <see cref="IServiceRegistry"/> interface with a
     /// set of convenience methods for registering services.
@@ -51,11 +51,13 @@ namespace LightInject
         /// <returns>The <see cref="IServiceRegistry"/>, for chaining calls.</returns>
         public static IServiceRegistry Register(this IServiceRegistry serviceRegistry, Type serviceType, Func<IServiceFactory, object> factory, string serviceName, ILifetime lifetime)
         {
-            var serviceRegistration = new ServiceRegistration();
-            serviceRegistration.FactoryExpression = factory;
-            serviceRegistration.ServiceType = serviceType;
-            serviceRegistration.ServiceName = serviceName;
-            serviceRegistration.Lifetime = lifetime;
+            var serviceRegistration = new ServiceRegistration
+            {
+                FactoryExpression = factory,
+                ServiceType = serviceType,
+                ServiceName = serviceName,
+                Lifetime = lifetime,
+            };
             return serviceRegistry.Register(serviceRegistration);
         }
 
@@ -185,7 +187,6 @@ namespace LightInject
         public static IServiceRegistry RegisterSingleton(this IServiceRegistry serviceRegistry, Type serviceType)
             => serviceRegistry.Register(serviceType, new PerContainerLifetime());
 
-
         /// <summary>
         /// Registers a singleton service of type <paramref name="serviceType"/> with an implementing type of <paramref name="implementingType"/>.
         /// </summary>
@@ -238,7 +239,6 @@ namespace LightInject
         public static IServiceRegistry RegisterScoped<TService>(this IServiceRegistry serviceRegistry)
             => serviceRegistry.Register<TService>(new PerScopeLifetime());
 
-
         /// <summary>
         /// Registers a scoped service of type <typeparamref name="TService"/> with an implementing type of <typeparamref name="TImplementation"/>.
         /// </summary>
@@ -260,7 +260,6 @@ namespace LightInject
         /// <returns>The <see cref="IServiceRegistry"/>, for chaining calls.</returns>
         public static IServiceRegistry RegisterScoped(this IServiceRegistry serviceRegistry, Type serviceType, Type implementingType)
             => serviceRegistry.Register(serviceType, implementingType, new PerScopeLifetime());
-
 
         /// <summary>
         /// Registers a scoped service of type <paramref name="serviceType"/> as a concrete service type.

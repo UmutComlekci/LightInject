@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Reflection;
+    using System.Reflection.Emit;
+
    /// <summary>
     /// Extends the <see cref="IEmitter"/> interface with a set of methods
     /// that optimizes and simplifies emitting MSIL instructions.

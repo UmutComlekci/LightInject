@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
    /// <summary>
     /// Extends the log delegate to simplify creating log entries.
     /// </summary>

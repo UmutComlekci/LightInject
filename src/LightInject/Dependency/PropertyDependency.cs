@@ -1,6 +1,8 @@
 namespace LightInject
 {
-   /// <summary>
+    using System.Reflection;
+
+    /// <summary>
     /// Represents a property dependency.
     /// </summary>
     public class PropertyDependency : Dependency

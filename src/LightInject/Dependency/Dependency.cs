@@ -1,6 +1,8 @@
 namespace LightInject
 {
-     /// <summary>
+    using System;
+
+    /// <summary>
     /// Represents a class dependency.
     /// </summary>
     public abstract class Dependency
@@ -36,8 +38,7 @@ namespace LightInject
         /// <returns>A string that describes the dependency.</returns>
         public override string ToString()
         {
-            var sb = new StringBuilder();
-            return sb.AppendFormat("[Requested dependency: ServiceType:{0}, ServiceName:{1}]", ServiceType, ServiceName).ToString();
+            return $"[Requested dependency: ServiceType:{ServiceType}, ServiceName:{ServiceName}]";
         }
     }
 }

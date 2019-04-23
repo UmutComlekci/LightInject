@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System.Reflection;
+
     /// <summary>
     /// Represents a class that is capable of building a <see cref="ConstructorInfo"/> instance
     /// based on a <see cref="Registration"/>.

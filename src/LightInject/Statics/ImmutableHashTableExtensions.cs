@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Diagnostics.CodeAnalysis;
+    using System.Runtime.CompilerServices;
+
     /// <summary>
     /// Extends the <see cref="ImmutableHashTable{TKey,TValue}"/> class.
     /// </summary>

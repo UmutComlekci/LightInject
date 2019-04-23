@@ -1,5 +1,8 @@
 namespace LightInject
 {
+    using System;
+    using System.Reflection;
+
     /// <summary>
     /// Represents a class that extracts a set of types from an <see cref="Assembly"/>.
     /// </summary>

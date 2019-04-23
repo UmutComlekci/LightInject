@@ -1,5 +1,9 @@
 namespace LightInject
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Reflection;
+
     /// <summary>
     /// Contains information about how to create a service instance.
     /// </summary>

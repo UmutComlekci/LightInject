@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     /// <summary>
     /// Represents a class that builds a <see cref="ConstructionInfo"/> instance based on the implementing <see cref="Type"/>.
     /// </summary>

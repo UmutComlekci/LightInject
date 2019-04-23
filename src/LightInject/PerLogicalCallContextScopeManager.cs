@@ -1,6 +1,6 @@
 namespace LightInject
 {
-   #if NET452 || NETSTANDARD1_3 || NETSTANDARD1_6 || NETSTANDARD2_0 || NET46 || NETCOREAPP2_0
+#if NET452 || NETSTANDARD1_3 || NETSTANDARD1_6 || NETSTANDARD2_0 || NET46 || NETCOREAPP2_0
 
     /// <summary>
     /// Manages a set of <see cref="Scope"/> instances.

@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System.Reflection;
+
     /// <summary>
     /// Represents a constructor dependency.
     /// </summary>

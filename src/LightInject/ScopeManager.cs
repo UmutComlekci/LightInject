@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System;
+
     /// <summary>
     /// A base class for implementing <see cref="IScopeManager"/>.
     /// </summary>

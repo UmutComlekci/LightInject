@@ -1,6 +1,9 @@
 namespace LightInject
 {
-     /// <summary>
+    using System;
+    using System.Reflection;
+
+    /// <summary>
     /// Represents a class that is capable of scanning an assembly and register services into an <see cref="IServiceContainer"/> instance.
     /// </summary>
     public interface IAssemblyScanner

@@ -1,5 +1,10 @@
 namespace LightInject
 {
+    using System;
+    using System.Linq;
+    using System.Reflection;
+    using System.Text.RegularExpressions;
+
    /// <summary>
     /// A class that is capable of providing a service name
     /// to be used when a service is registered during assembly scanning.

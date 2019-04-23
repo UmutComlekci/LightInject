@@ -1,5 +1,7 @@
 namespace LightInject
 {
+    using System.Threading;
+
    /// <summary>
     /// A <see cref="IScopeManager"/> that manages scopes per thread.
     /// </summary>
